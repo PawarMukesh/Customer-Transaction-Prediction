@@ -9,8 +9,8 @@ BASED ON GIVEN FEATURE OF DATASET WE NEED TO PREDICT WHICH CUSTOMER MAKE TRANSAC
 ## TASK:  BINARY CLASSIFICATION TASK
 
 ### NOTE:
-•	In this data we not do any domain analysis  and eda because the data is contain private information of bank customer
-•	In this data we only check the distribution of feature and target column
+*	In this data we not do any domain analysis  and eda because the data is contain private information of bank customer
+*	In this data we only check the distribution of feature and target column
 
 ## DOMAIN ANALYSIS and EDA:
 ### TARGET COLUMN == TARGET [0, 1]
@@ -55,7 +55,7 @@ Because the all feature contain outlier and close to the normal distribution
 MODEL CREATION AND SELECTION:
 
 OBSERVATION:
-•	logistic regression model training and testing score is not good after applying bagging score is still lagging.
-•	ANN MLP Classifeir model is very well work on training data as well as testing data the score of training is 93.87 and testing score is 90.47 with f1 score is 90.58
-•	XGB Classifier model is also well work on training and testing side the score of training 93.77 and testing score is 90.60 with f1 score is 90.67.
-•	From above all model we are select ANN MLP Classifier because we use certain parameter like max_iter.
+*	logistic regression model training and testing score is not good after applying bagging score is still lagging.
+* ANN MLP Classifeir model is very well work on training data as well as testing data the score of training is 93.87 and testing score is 90.47 with f1 score is 90.58
+*	XGB Classifier model is also well work on training and testing side the score of training 93.77 and testing score is 90.60 with f1 score is 90.67.
+*	From above all model we are select ANN MLP Classifier because we use certain parameter like max_iter.
